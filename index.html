@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile card</title> 
+    <style> 
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+    .cont{
+        height: 100%;
+        color:black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+        background: color #333;
+        text-align: center;
+        padding: 100px 100px;
+        border-radius: 20px;
+        border: 5px solid gold;
+    } 
+    .box:hover{ 
+        transform: scale(1.05)
+
+    }
+    #profile{
+        height: 200px;
+        width: 200px;
+        border-radius: 50% ;
+        border: 2px solid gold;
+    }
+    button{
+        background-color: blue;
+        color: white;
+        height: 50px;
+        width: 150px;
+        border-radius: 20% 
+    }
+    button:hover{
+        transform: scale(1.03)
+    }
+    h2{
+        color: black;
+        font size: 200%;
+    }
+   #l,#x,#g{ 
+       border-radius: 50%
+       border: 2px solid gold;
+   }
+   #l:hover,#x:hover,#g:hover{
+    transform: scale(1.1)
+   }
+ .logo{
+    gap: 20px;
+ }
+    </style> 
+</head>
+<body>
+    <div class="cont">
+     <div class="box">
+         <h2> jyotika </h2>   
+        <img src="photo/panda.jpg" alt="profile photo" width="150" height="150"> <br>
+    
+    <button> view portfolio</button>  
+    <button> major project </button> <br> 
+        <img src="photo/linkdin.png " alt="linkdin" id="l" height="40" width="40"> 
+        <img src="photo/Twitter.png" alt="x img" id="x" height="40" width="40"> 
+        <img src="photo/Github-Logo.png" alt="github" id="g" height="40" width="40"> 
+
+    </div>
+       </div>    
+</body>
+</html>
